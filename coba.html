@@ -1,13 +1,48 @@
-
 <!DOCTYPE html>
 <html>
-<style type="text/css">
-body {
-   margin: 0;
-   padding: 0;
-}
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<meta name="referrer" content="no-referrer" />
+ <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.3.3/shaka-player.compiled.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.3.3/shaka-player.compiled.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.1.1/shaka-player.ui.min.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/NaughtyJoker29/code/tele.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.3/controls.min.css">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+	@import "https://fonts.googleapis.com/css?family=Play:300,400,700";
+	@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700";
+	@import "https://fonts.googleapis.com/css?family=Monda:300,400,700";
 </style>
-<meta name="referrer" content="no-referrer">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+  
+  <script type='text/javascript'>
+//<![CDATA[
+
+
+function redirectCU(e) {
+  if (e.ctrlKey && e.which == 85) {
+    window.location.replace("https://www.google.com/");
+    return false;
+  }
+}
+document.onkeydown = redirectCU;
+
+
+function redirectKK(e) {
+  if (e.which == 3) {
+    window.location.replace("https://www.google.com/");
+    return false;
+  }
+}
+document.oncontextmenu = redirectKK;
+//]]>
+</script>
+  
+</head>
+<body bgcolor='black' style='margin:0'>
+
 <script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
 <script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
 </script>
@@ -866,6 +901,5 @@ if (id == 1059 || id == 1063 || id == 1185 || id == 1157 || id == 1071 || id == 
 	});
 }
 </script>
-
 </body>
 </html>
